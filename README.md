@@ -6,6 +6,7 @@ Functionalities:
 
 - Visualize a desired graph
 
+![CZ2001-Lab-4B-Grah](https://res.cloudinary.com/shernaliu/image/upload/v1587590748/github-never-delete/CZ2001-LAB-4B-Graph.png)
 
 ## Installing CZ2001-Lab-4B-Graph
 
