@@ -47,8 +47,8 @@
         
 
         // parsing and collecting nodes and edges from the python
-        nodes = new vis.DataSet([{"color": "orange", "id": "Singapore", "label": "Singapore", "shape": "dot"}, {"color": "orange", "id": "Hong Kong", "label": "Hong Kong", "shape": "dot"}, {"color": "orange", "id": "Shanghai", "label": "Shanghai", "shape": "dot"}, {"color": "orange", "id": "Istanbul", "label": "Istanbul", "shape": "dot"}, {"color": "orange", "id": "Moscow", "label": "Moscow", "shape": "dot"}, {"color": "orange", "id": "Ukraine", "label": "Ukraine", "shape": "dot"}]);
-        edges = new vis.DataSet([{"from": "Singapore", "to": "Hong Kong"}, {"from": "Singapore", "to": "Shanghai"}, {"from": "Singapore", "to": "Istanbul"}, {"from": "Singapore", "to": "Moscow"}, {"from": "Istanbul", "to": "Ukraine"}, {"from": "Hong Kong", "to": "Shanghai"}, {"from": "Ukraine", "to": "Moscow"}]);
+        nodes = new vis.DataSet([{"color": "orange", "id": "A", "label": "A", "shape": "dot"}, {"color": "orange", "id": "B", "label": "B", "shape": "dot"}, {"color": "orange", "id": "C", "label": "C", "shape": "dot"}, {"color": "orange", "id": "D", "label": "D", "shape": "dot"}, {"color": "orange", "id": "E", "label": "E", "shape": "dot"}, {"color": "orange", "id": "F", "label": "F", "shape": "dot"}, {"color": "orange", "id": "G", "label": "G", "shape": "dot"}, {"color": "orange", "id": "H", "label": "H", "shape": "dot"}, {"color": "orange", "id": "I", "label": "I", "shape": "dot"}, {"color": "orange", "id": "J", "label": "J", "shape": "dot"}]);
+        edges = new vis.DataSet([{"from": "A", "to": "B"}, {"from": "A", "to": "C"}, {"from": "A", "to": "D"}, {"from": "B", "to": "E"}, {"from": "C", "to": "F"}, {"from": "C", "to": "G"}, {"from": "D", "to": "I"}, {"from": "E", "to": "H"}, {"from": "G", "to": "I"}, {"from": "G", "to": "J"}, {"from": "H", "to": "I"}]);
 
         // adding nodes and edges to the graph
         data = {nodes: nodes, edges: edges};

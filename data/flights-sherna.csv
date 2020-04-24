@@ -1,8 +1,12 @@
 ﻿SrcCity,DestCity
-Singapore,Hong Kong
-Singapore,Shanghai
-Singapore,Istanbul
-Singapore,Moscow
-Istanbul,Ukraine
-Hong Kong,Shanghai
-Ukraine,Moscow
+A,B
+A,C
+A,D
+B,E
+C,F
+C,G
+D,I
+E,H
+G,I
+G,J
+H,I
